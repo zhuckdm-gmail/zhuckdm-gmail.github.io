@@ -1,0 +1,236 @@
+@font-face {
+  font-family: 'Times New Roman';
+  src: url(../fonts/times-new-roman.ttf);
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Times New Roman';
+}
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.circle {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 14rem;
+  height: 14rem;
+  -moz-border-radius: 7rem;
+  -webkit-border-radius: 7rem;
+  border: solid black .5rem;
+  border-radius: 7rem;
+  padding: 1.5rem;
+}
+.container-icons {
+  padding-left: 10%;
+  margin-bottom: 12rem;
+  margin-top: 3rem;
+}
+.container-icons #row2 {
+  margin-top: 8rem;
+}
+.container-icons .icon-block {
+  margin-left: 7rem;
+  width: 13rem;
+  height: 15rem;
+}
+.container-icons .icon-block:hover .circle {
+  border: solid #005CA1 .5rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  height: 15rem;
+  width: 15rem;
+}
+.container-icons .icon-block:hover p {
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: #3F61F7;
+}
+.container-icons .icon-block:hover img {
+  height: 11rem;
+  width: 11rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.container-icons .icon-block img {
+  width: 10rem;
+  height: 10rem;
+}
+.container-icons .icon-block p {
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #000000;
+  width: 100%;
+  text-decoration: none;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 900;
+  margin-left: 1.5rem;
+}
+.header-default {
+  margin-top: 50px;
+}
+.header-default .letter-y {
+  height: 130px;
+  width: 100%;
+}
+.header-default .letter-y img {
+  height: 100%;
+  width: auto;
+}
+.header-default .urfu {
+  width: 150%;
+}
+.header-default .urfu .big-text,
+.header-default .urfu .blue-text {
+  font-weight: 700;
+}
+.header-default .urfu .big-text {
+  font-size: 16px;
+}
+.header-default .urfu .small-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 8px;
+}
+.header-default .urfu .blue-text {
+  font-size: 14px;
+  color: #005ca1;
+}
+.header-default .big-title {
+  text-align: left;
+  margin-top: 50px;
+  font-size: 42px;
+  font-weight: 700;
+  color: #005ca1;
+}
+.header {
+  margin-top: 7rem;
+  height: 330px;
+  width: 100%;
+  position: relative;
+}
+.header .fon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.header img {
+  height: 100%;
+  width: 100%;
+}
+.header .header-chair {
+  position: relative;
+  height: 330px;
+  border-top: solid 30px #BED4F1;
+  border-bottom: solid 30px #BED4F1;
+}
+.header .header-chair img {
+  margin-top: -30px;
+  width: auto;
+  height: 330px;
+  opacity: .94;
+  left: 50px;
+  position: absolute;
+}
+.header .header-chair .title-chair {
+  position: absolute;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 140px;
+  margin-left: 204px;
+  font-size: 39px;
+}
+.beginning-links .links-block {
+  margin-top: 40px;
+  height: 70px;
+  border-top: #005ba0 solid 5px;
+  border-bottom: #005ba0 solid 5px;
+  border-radius: 5px;
+}
+.beginning-links a {
+  font-size: 25px;
+  font-weight: 700;
+  color: #000000;
+}
+.beginning-links .ref {
+  margin-top: 14px;
+  text-align: center;
+  position: relative;
+  height: 100%;
+}
+.beginning-links .ref img {
+  position: absolute;
+  opacity: .81;
+  margin-top: -14px;
+  left: 2px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 100%;
+  z-index: -1;
+}
+.face-chair .frame {
+  margin-top: 45px;
+  border: rgba(0, 91, 160, 0.27) solid 5px;
+  border-radius: 10px;
+  width: 460px;
+  height: 230px;
+  margin-left: 26px;
+}
+.face-chair .frame .foto {
+  float: left;
+}
+.face-chair .frame .foto img {
+  border: #b9d2e5 solid 1px;
+  border-radius: 2px;
+  margin-top: 23px;
+  margin-left: 23px;
+  height: 176px;
+}
+.face-chair .frame .data {
+  float: left;
+  font-size: 14px;
+  margin-top: 23px;
+  margin-left: 23px;
+}
+.face-chair .frame .data a {
+  text-decoration: underline;
+}
+.text {
+  font-size: 16px;
+  margin: 0px 10%;
+}
+.text h2 {
+  font-weight: 700;
+}
+.text table :nth-child(2n) td {
+  background-color: #BED4F1;
+}
+.text table td {
+  border: solid 2px #fff;
+  width: 300px;
+  text-align: center;
+}
+.text table :first-child {
+  text-align: left;
+}
+footer {
+  margin-top: 3rem;
+  height: auto;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: rgba(27, 26, 27, 0.82);
+  border: solid 2px rgba(112, 112, 112, 0.82);
+}
+footer .first-p {
+  margin-left: 10px;
+}
+footer .row img {
+  border-radius: 15px;
+  width: 16%;
+  margin-top: 2%;
+  margin-left: 10px;
+}
